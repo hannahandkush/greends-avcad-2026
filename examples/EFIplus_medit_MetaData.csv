@@ -1,0 +1,48 @@
+Variable_acronym;Description;Type of variable
+Calib_EFI_Medit;Reference conditions - minimum disturbed sites (1);binary
+Calib_connect;Reference conditions - sites with minimum connectivity disturbances (1);binary
+Calib_hydrol;Reference conditions - sites with minimum hydrological disturbances (1);binary
+Calib_morphol;Reference conditions - sites with minimum morphological disturbances (1);binary
+Calib_wqual;Reference conditions - sites with minimum water quality disturbances (1);binary
+Geomorph1;Geomorphology (PC1 scores);continuous
+Geomorph2;Geomorphology (PC2 scores);continuous
+Geomorph3;Geomorphology (PC3 scores);continuous
+Water_source_type;Type of water source (pluvial, nival, groundwater);categorical
+Flow_regime;Permanent or summar dry;categorical
+Altitude;Elevation in m;continuous
+Geological_typology;Calcareous or Siliceous;categorical
+Actual_river_slope;Longitudinal slope along the river bed;continuous
+Natural_sediment;Presence of natural sediments (1-4);qualitative ordinal
+Elevation_mean_catch;Mean elevation in the upstream catchment;continuous
+prec_ann_catch;Mean annual total precipitation in the upstream catchment;continuous
+temp_ann;Mean annual temperature in the upstream catchment;continuous
+temp_jan;Mean January temperature in the upstream catchment;continuous
+temp_jul;Mean July temperature in the upstream catchment;continuous
+Barriers_catchment_down;Presence of barriers downstream;binary
+Barriers_river_segment_up;Presence of barriers in the river segment (between tributaries), upstream from the sampling site;binary
+Barriers_river_segment_down;Presence of barriers in the river segment (between tributaries), downstream from the sampling site;binary
+Barriers_number_river_segment_up;Number of barriers in the river segment (between tributaries), upstream from the sampling site;counts
+Barriers_number_river_segment_down;Number of barriers in the river segment (between tributaries), downstream from the sampling site;counts
+Barriers_distance_river_segment_up;Distance of the sampling site to the closest upstream barrier;continuous
+Barriers_distance_river_segment_down;Distance of the sampling site to the closest downstream barrier;continuous
+Impoundment;River impoundment ;qualitative ordinal
+Hydropeaking;Hydropeaking;qualitative ordinal
+Water_abstraction;Water abstraction for agriculture purposes;qualitative ordinal
+Hydro_mod;Hydrological modification;qualitative ordinal
+Temperature_impact;Impact of upstream sources (dams, plants) on temperature;qualitative ordinal
+Velocity_increase;Increase in river velocity due to river morphological changes;qualitative ordinal
+Reservoir_flushing;Reservoir flushing;qualitative ordinal
+Sedimentation;Increase of sedimentation due to human activities/infrastrutures;qualitative ordinal
+Channelisation;River channelisation;qualitative ordinal
+Cross_sec;Changes in river cross section ;qualitative ordinal
+Instream_habitat;Instream natural habitat changes;qualitative ordinal
+Riparian_vegetation;Changes in natural riparian;qualitative ordinal
+Embankment;Embankment of river margins;qualitative ordinal
+Floodprotection;Floodprotection infrastructures;qualitative ordinal
+Floodplain;Existence of lateral floodplain;qualitative ordinal
+Toxic_substances;Presence of toxic substances;qualitative ordinal
+Acidification;Water acidification intensity;qualitative ordinal
+Water_quality_index;Official water quality index;qualitative ordinal
+Eutrophication;Water eutrophication intensity;qualitative ordinal
+Organic_pollution;Organic pollution intensity;qualitative ordinal
+Organic_siltation;Organic siltation intensity;qualitative ordinal
